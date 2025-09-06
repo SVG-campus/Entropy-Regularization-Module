@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Entropy Regularization Module"
+version: "0.1.0"
+date-released: "2025-09-05"
+authors:
+  - family-names: "Villalobos-Gonzalez"
+    given-names: "Santiago de Jesus"
+    orcid: "https://orcid.org/0009-0004-9601-5617"
+type: software
+abstract: >
+  Reference implementation of entropy regularization for portfolio allocation,
+  adding H(w) = -sum_i w_i log w_i to the objective with strength gamma.
+  Includes exponentiated-gradient updates, simplex projection, tests, and
+  Zenodo/ORCID metadata.
+keywords:
+  - entropy regularization
+  - portfolio optimization
+  - asset allocation
+  - risk management
+  - quantitative finance
+license: MIT
+repository-code: "https://github.com/OWNER/REPO"   # <-- replace with your repo URL
+identifiers: []
